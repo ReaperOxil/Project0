@@ -1,0 +1,33 @@
+#header ul li {
+    display: inline;
+}
+#header ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+#header ul li a:hover {
+    border-bottom: 2px solid #ff6b57;
+}
+a {
+    text-decoration: none;
+}
+
+#header {
+    background-image: url(../Imagens/contatoheader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+img {
+    width: 100px;
+}
+#enviar {
+    background-image: linear-gradient(to bottom, #fe7476, #fc3836 );
+    border-radius: 50px;
+    border-color: #ff6b57;
+    width: 500px;
+    height: 40px;
+    color: white;
+    font:larger;
+}
