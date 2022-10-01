@@ -4,57 +4,59 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Aula</title>
+            <title>Funko PoP | Contatos</title>
             <link rel="stylesheet" href="./style.css">
+            <link rel="stylesheet" href="./general.css">
+
         </head>
         <body>
             <header class="header" id="header">
                 <nav>
                     <ul>
-                        <li><img class="img" id="image1" src="./Minha Loja_Website Modelo (1)/imagens atualizadas/logo.png" alt=""></li>
+                        <li><img class="img" id="image1" src="./Imagens/logo.png" alt=""></li>
                         <li class="disc"><a href="home.html">Home</a></li>
                         <li class="circle"><a href="catalogo.html">Catálogo</a></li>
                         <li class="circle"><a href="contatos.html">Contatos</a></li>
                     </ul>
                 </nav>
             
-            <h1>Fale conosco aqui!</h1>
+            <img src="./Imagens/contatotitle.png" class="titulo">
             </header>
-            <center><h2>ENTRE EM CONTATO</h2></center>
-            <center>
-                <p>Lorem ipsum dolor sit amet,consectetur adipiscing</p>
-                <p>Quisque enim eros, pretium maximus</p> 
-                <p>pellentesque non, commodo quis risus</p>
-            </center>
-            <center>
+            <h2 class="title" id="top">ENTRE EM CONTATO</h2>
+                <p class="title">Lorem ipsum dolor sit amet,consectetur adipiscing</p>
+                <p class="title">Quisque enim eros, pretium maximus</p> 
+                <p class="title">pellentesque non, commodo quis risus</p>
             <form>
-                <br>
-                <br>
-                <label for="trilha-id"></label>
-                <input class="contacts" id="trilha-id"
+                <div>
+                    <ul>
+                        <li><input class="contacts" id="trilha-id"
                     name="trilha"
                     placeholder="NOME"
-                    >
-                <br>
-                <br>
-                <label for="email-id"></label>
-                <input class="contacts" id="email-id"
+                    ></li>
+                    
+                <li><input class="contacts" id="email-id"
                     name="email"
                     type="email"
                     placeholder="EMAIL"
-                    >
-                    <br>
-                    <br>
-                <label for="telefone-id"></label>
-                    <input class="contacts" type="tel"
+                    ></li>
+                    <li class="Comentarios">
+                        <input class="contacts" type="text"
+                        placeholder="Como podemos ajudá-lo?"
+                        name="Comentarios"
+                        id="comentarios">
+                    </li>
+                    <li><input class="contacts" type="tel"
                     name="telefone"
                     id="telefone-id"
-                    placeholder="TELEFONE">
+                    placeholder="TELEFONE"></li>
+                </ul>
+                </div>
+            
             </form>
-            <br><br>
             <footer>
+                <div>
                 <input type="submit" value="Enviar" class="enviar" id="enviar">
+                </div>
             </footer>
-        </center>
         </body>
 </html>
