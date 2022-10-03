@@ -1,0 +1,72 @@
+#header ul li {
+    display: inline;
+}
+#header ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.title#top {
+    border-bottom: 2px solid #ff6b57;
+    font-size: 30px;
+}
+#header ul li a:hover {
+    border-bottom: 2px solid #ff6b57;
+}
+a {
+    text-decoration: none;
+
+}
+
+#header {
+    background-image: url(../Imagens/contatoheader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+}
+img {
+    width: 100px;
+}
+#enviar {
+    background-image: linear-gradient(to bottom, #fe7476, #fc3836 );
+    border-radius: 50px;
+    border-color: #ff6b57;
+    width: 500px;
+    height: 40px;
+    color: white;
+    font:larger;
+}
+.contacts {
+    background-color: lightgrey;
+    border-radius: 5px;
+    border-color: grey;
+    border-top-color: grey ;
+    width: 500px;
+    height: 50px;
+}
+div {
+    text-align: center;
+}
+label   {
+    margin: 70%;
+}
+#comentarios {
+   height: 250px;
+}
+div ul {
+    list-style: none;
+    margin-right: 25%;
+
+}
+div ul li {
+    margin-bottom: 15px;
+}
+.titulo{
+    width: 30%;
+    margin: 10%;
+}
