@@ -10,6 +10,7 @@
     margin-left: 200px;
     margin-top: 250px;
 }
+
 form {
     background-image: url(../Imagens/thor_header.jpg);
     background-repeat: no-repeat;
@@ -25,7 +26,8 @@ form {
 #top {
     color:white;
     border-bottom: 2px solid #ffffff;
-    
+    width: 200px;
+    margin-left: 45%;
 }
 div {
     background-image: url(../Imagens/bonecos.png);
@@ -36,6 +38,8 @@ div {
 #top2 {
     color:grey;
     border-bottom: 2px solid grey;
+    width: 200px;
+    margin-left: 45%;
 }
 #subtitle2 {
     padding-left: 50%;

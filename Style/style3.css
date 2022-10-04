@@ -11,8 +11,10 @@ header {
     margin-bottom: 50px;
 }
 .title {
-    border-bottom: 2px solid #ff6b57;
-    border-radius: 1px;
+    border-bottom: 5px solid #ff6b57;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 45%;
 }
 .produtos ul li {
     display: inline;
