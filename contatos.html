@@ -5,7 +5,7 @@
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Funko PoP | Contatos</title>
-            <link rel="stylesheet" href="./Style/style.css">
+            <link rel="stylesheet" href="./Style/contatos.css">
             <link rel="stylesheet" href="./Style/general.css">
 
         </head>
@@ -23,39 +23,29 @@
             <img src="./Imagens/contatotitle.png" class="titulo">
             </header>
             <h2 class="title" id="top">ENTRE EM CONTATO</h2>
-                <p class="title">Lorem ipsum dolor sit amet,consectetur adipiscing</p>
-                <p class="title">Quisque enim eros, pretium maximus</p> 
-                <p class="title">pellentesque non, commodo quis risus</p>
+            <label class="subtitle">
+                <h3>Lorem ipsum dolor sit amet,consectetur adipiscing</h3>
+                <h3>Quisque enim eros, pretium maximus</h3> 
+                <h3>pellentesque non, commodo quis risus</h3>
+            </label>
             <form>
-                <div>
-                    <ul>
-                        <li><input class="contacts" id="trilha-id"
-                    name="trilha"
-                    placeholder="NOME"
-                    ></li>
-                    
-                <li><input class="contacts" id="email-id"
-                    name="email"
-                    type="email"
-                    placeholder="EMAIL"
-                    ></li>
-                    </li>
-                    <li><input class="contacts" type="tel"
-                    name="telefone"
-                    id="telefone-id"
-                    placeholder="TELEFONE"></li>
-                    <li class="Comentarios">
-                        <input class="contacts" type="text"
-                        placeholder="Como podemos ajudá-lo?"
-                        name="Comentarios"
-                        id="comentarios">
-                </ul>
-                </div>
+                <main class="layout app-main">
+                    <div>
+                        <input class="contacts" id="trilha-id" name="trilha" placeholder="NOME">
+                    </div>
+                    <div><input class="contacts" id="email-id" name="email" type="email" placeholder="EMAIL">
+                    </div>
+                    <div><input class="contacts" type="tel" name="telefone" id="telefone-id" placeholder="TELEFONE">
+                    </div>
+                    <div>
+                        <input class="contacts" type="text" placeholder="Como podemos ajudá-lo?" name="Comentarios" id="comentarios">
+                    </div>
+                </main>
             
             </form>
             <footer>
-                <div>
-                <input type="submit" value="Enviar" class="enviar" id="enviar">
+                <div class="enviar">
+                <button type="submit" value="Enviar" class="enviar" id="enviar">ENVIAR</button>
                 </div>
             </footer>
         </body>
